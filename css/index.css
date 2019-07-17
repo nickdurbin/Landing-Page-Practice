@@ -3,7 +3,7 @@
 }
 
 .slider {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -37,6 +37,7 @@ section {
 }
 
 .hero {
+  position: relative;
   height: 60%;
   width: 100%;
 }
@@ -60,10 +61,10 @@ section {
 
 .headline {
   position: absolute;
-  top: 70%;
-  left: 8%;
-  font-size: 9rem;
-  transform: translate(-20%, -70%);
+  top: 80%;
+  left: 5%;
+  font-size: 8rem;
+  transform: translate(-30%, -90%);
   color: white;
   z-index: 3;
 }
